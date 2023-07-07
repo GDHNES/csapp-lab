@@ -1,0 +1,11 @@
+mov %rsp, %rax                      <addval_190> +3     401a03 +3       401a06                       
+mov %rax, %rdi                      <addval_273> +2     4019a0 +2       4019a2
+pop %rax                            <addval_219> +4     4019a7 +4       4019ab
+8*(10-1)                            <$shift_imm>        0x48            48
+mov %rax, %rdx                      <getval_481> +2     4019db +2       4019dd
+mov %edx, %ecx                      <getval_159> +1     401a33 +1       401a34
+mov %ecx, %esi                      <addval_436> +2     401a11 +2       401a13
+$rax = %rdi + %rsi                  <add_xy>            4019d6          4019d6
+mov %rax, %rdi                      <addval_273> +2     4019a0 +2       4019a2
+0x4018fa                            <touch3>            4018fa          4018fa
+35 39 62 39 39 37 66 61 00          <$cookie>           ...
